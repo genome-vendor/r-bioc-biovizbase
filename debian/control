@@ -2,13 +2,13 @@ Source: r-bioc-biovizbase
 Section: gnu-r
 Priority: optional
 Maintainer: The Genome Institute <gmt@genome.wustl.edu>
-Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-scales, r-cran-hmisc, r-cran-rcolorbrewer, r-bioc-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-biostrings, r-bioc-rsamtools, r-bioc-genomicfeatures
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), r-cran-scales (>= 0.2.3-2), r-cran-hmisc, r-cran-rcolorbrewer, r-bioc-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-biostrings, r-bioc-rsamtools, r-bioc-genomicfeatures
 Homepage: http://www.bioconductor.org/packages/2.11/bioc/html/biovizBase.html
 
-Package: r-cran-biovizbase
+Package: r-bioc-biovizbase
 Architecture: all
 Maintainer: Tengfei Yin <yintengfei@gmail.com>
 Description: The biovizBase package is designed to provide a set of utilities, color schemes and conventions for genomic data. It serves as the base for various high-level packages for biological data visualization. This saves development effort and encourages consistency.
 License: Artistic2.0
-Depends: r-base-core, r-cran-scales, r-cran-hmisc, r-cran-rcolorbrewer, r-bioc-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-biostrings, r-bioc-rsamtools, r-bioc-genomicfeatures
+Depends: r-base-core, r-cran-scales (>= 0.2.3-2), r-cran-hmisc, r-cran-rcolorbrewer, r-bioc-biocgenerics, r-bioc-iranges, r-bioc-genomicranges, r-bioc-biostrings, r-bioc-rsamtools, r-bioc-genomicfeatures
 
